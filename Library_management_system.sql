@@ -1,5 +1,7 @@
 -- Create database
 CREATE DATABASE IF NOT EXISTS Library_manaement_system;
+-- Database 'Library_manaement_system' for task 1 to task 12
+-- Database 'library_project_db' for task 13 to task 20
 USE Library_manaement_system;
 
 -- Create tables
@@ -237,6 +239,10 @@ Display the memner's id, member's name, book title, issue date, and days overdue
 -- issued_status == members == books == return_status
 -- filter books which have been returned
 -- overdue > 30 days
+
+-- Database 'Library_manaement_system' for task 1 to task 12
+-- Database 'library_project_db' for task 13 to task 20
+USE library_project_db;
 SELECT
 	ist.issued_member_id,
     m.member_name,
